@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+header {
+  border: solid 1px #000;
+}
+
+header nav ul{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  border: solid 1px red;
+} 
+
+header nav ul li a {
+  padding: .5rem 1rem;
+  display: block;
+}
+
+/* Start Recipes List */
+.recipe-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-item {
+  border: solid 1px #000;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+
+.recipe-item__content {
+  flex-basis: 70%;
+}
+
+
+.recipe-item__image {
+  flex-basis: 30%;
+}
+.recipe-item__content {
+  flex-direction: column;
+}
+
+.recipe-item__content > div {
+  border: solid 1px red;
+}
+
+.recipe-item__content__top {
+  display: flex;
+}
+
+.recipe-item__content__level {
+  margin-left: auto;
+}
+
+.recipe-item__content__bottom {
+  display: flex;
+  flex-wrap: nowrap;
+  border: solid 1px blue !important;
+}
+
+.recipe-item__content__categories {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 90%;
+}
+
+.recipe-item__content__cook {
+  margin-left: auto;
+  border: solid 1px orange;
+  /* flex-basis: 10%; */
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: block;
+}
+
+
+

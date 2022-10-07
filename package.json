@@ -1,0 +1,17 @@
+{
+  "name": "eindopdracht",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch ./scss/styles.scss ./css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tarekraafat/autocomplete.js": "^10.2.6",
+    "sass": "^1.43.4"
+  }
+}
